@@ -10,7 +10,7 @@ mvn versions:commit –DprocessAllModules
 mvn versions:set -DnewVersion=2.50.1-SNAPSHOT -DprocessAllModules -DgenerateBackupPoms=false
 
 # to replace static version for single module project
-mvn versions:set -DnewVersion=2.50.1-SNAPSHOT
+mvn versions:set -DnewVersion=2.50.1-SNAPSHOT  
 mvn versions:commit
 
 # to revert version replacement before commit
